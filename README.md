@@ -12,7 +12,7 @@ Aplicación móvil desarrollada en MIT App Inventor para análisis, depuración 
 ![Kaggle Dataset](https://img.shields.io/badge/Kaggle-Dataset-blue)
 ![Author](https://img.shields.io/badge/Author-María%20Fernanda%20Sánchez%20Alvarez-purple)
 
-📑 Tabla de Contenidos
+<h2><strong><em>📑 Tabla de Contenidos</em></strong></h2>
 Descripción General
 
 Características Principales
@@ -33,45 +33,49 @@ Estructura del Proyecto
 
 Autor
 
-🚀 Descripción General
-Esta herramienta analítica permite examinar cómo influyen variables biométricas y demográficas (edad, BMI, tabaquismo) en el costo de una póliza de seguro médico.
+<h2><strong><em>🚀 Descripción General</em></strong></h2>
+Pequeño resumen en viñetas para que se vea limpio:
 
-La aplicación:
+Herramienta analítica para evaluar cómo edad, BMI y tabaquismo influyen en el costo de una póliza médica.
 
-Consume datos en tiempo real desde Google Sheets
+Consume datos en tiempo real desde Google Sheets.
 
-Ejecuta limpieza de datos atípicos
+Ejecuta limpieza de datos atípicos.
 
-Traza la línea de mejor ajuste
+Traza la línea de mejor ajuste.
 
-Genera predicciones financieras con apoyo de IA
+Genera predicciones financieras con apoyo de IA.
 
-✨ Características Principales
+<h2><strong><em>✨ Características Principales</em></strong></h2>
 🔐 Autenticación (Screen0)
-Validación de credenciales y control de acceso.
+Validación de credenciales
+
+Control de acceso
 
 🧭 Navegación Modular (Screen1)
-Panel centralizado para acceder a cada etapa analítica.
+Panel centralizado
+
+Acceso a cada etapa analítica
 
 🧹 Depuración de Datos (cleanDataScreen)
-Filtrado de anomalías y registros inconsistentes.
+Filtrado de anomalías
+
+Eliminación de registros inconsistentes
 
 📈 Modelado Matemático (drawLOBFscreen)
-Cálculo dinámico de:
-
-Pendiente (M)
-
-Intersección (B)
-
-Coeficiente de correlación (R)
+Cálculo dinámico de M, B y R
 
 🤖 Predicciones e IA (makePredictionsScreen)
-Evaluación de escenarios en tiempo real con chatbot integrado.
+Escenarios en tiempo real
 
-📂 Dataset
-Fuente: Kaggle — Medical Cost Personal Datasets (Miri Choi)  
+Chatbot integrado
+
+<h2><strong><em>📂 Dataset</em></strong></h2>
+Fuente: Kaggle
+
 Integración: Google Sheets
-Muestra: 300 registros representativos
+
+Muestra: 300 registros
 
 Variables Clave
 Variable	Descripción
@@ -81,14 +85,14 @@ charges	Prima del seguro
 smoker	Indicador de tabaquismo
 
 
-🛠️ Arquitectura de la Aplicación
-text
+<h2><strong><em>🛠️ Arquitectura de la Aplicación</em></strong></h2>
+Código
 [Screen0: Login] ──> [Screen1: Menú Principal]
                            ├──> [cleanDataScreen: Limpieza de Datos]
                            ├──> [drawLOBFscreen: Modelo Matemático]
                            └──> [makePredictionsScreen: Predicciones e IA]
-🧮 Modelo Matemático
-Se utiliza un modelo de Regresión Lineal:
+<h2><strong><em>🧮 Modelo Matemático</em></strong></h2>
+Modelo de Regresión Lineal:
 
 Código
 Y_estimada = M * X + B
@@ -102,41 +106,36 @@ B: Intersección
 
 R: Confiabilidad del ajuste
 
-🛠️ Retos Técnicos y Soluciones
-1️⃣ Optimización del Datagrid y Visualización
-Desafío: Renderizar 1,338 registros saturaba el lienzo y generaba latencia.
-Solución: Reducir la muestra a 300 registros para trazados limpios y ejecución fluida.
+<h2><strong><em>🛠️ Retos Técnicos y Soluciones</em></strong></h2>
+1️⃣ Optimización del Datagrid
+Renderizar 1,338 registros saturaba el lienzo
+
+Se redujo la muestra a 300 registros
 
 2️⃣ Compatibilidad Numérica
-Desafío: Diferencias entre separadores decimales (punto/coma).
-Solución: Normalización con replace all text y conversión explícita a número.
+Problemas con separadores decimales
+
+Solución: replace all text + conversión explícita
 
 3️⃣ Depuración de Anomalías
-Desafío: Registros nulos o atípicos afectaban las métricas del modelo.
-Solución: Algoritmo de Data Cleaning previo al cálculo de la regresión.
+Registros nulos afectaban métricas
 
-📌 Conclusiones
+Solución: algoritmo de Data Cleaning
+
+<h2><strong><em>📌 Conclusiones</em></strong></h2>
 ✔️ Viabilidad Técnica
-MIT App Inventor demostró capacidad para:
+Conexión a la nube
 
-Conectarse a la nube
+Limpieza de datos
 
-Depurar datos
+Cálculo estadístico
 
-Calcular modelos estadísticos
-
-Integrar IA
+Integración de IA
 
 ✔️ Impacto Biométrico
-Se confirma correlación positiva entre:
+Correlación positiva entre BMI, edad y incremento en primas
 
-BMI
-
-Edad
-
-Incremento en primas
-
-💻 Tecnologías Utilizadas
+<h2><strong><em>💻 Tecnologías Utilizadas</em></strong></h2>
 MIT App Inventor 2
 
 Google Sheets
@@ -147,11 +146,11 @@ Bloques de lógica y matemáticas
 
 UI/UX con Poppins-Regular.ttf y paleta pastel
 
-📁 Estructura del Proyecto
+<h2><strong><em>📁 Estructura del Proyecto</em></strong></h2>
 Código
 src/      → Archivo fuente (.aia)
 assets/   → Tipografías, vectores e imágenes
 docs/     → Capturas, diagramas y documentación
-👤 Autor
+<h2><strong><em>👤 Autor</em></strong></h2>
 María Fernanda Sánchez Alvarez  
 Desarrollo e Implementación
