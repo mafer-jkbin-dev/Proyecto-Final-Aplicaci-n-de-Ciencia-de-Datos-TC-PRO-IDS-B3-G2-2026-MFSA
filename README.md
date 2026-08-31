@@ -2,7 +2,7 @@
 Aplicación móvil desarrollada en MIT App Inventor para análisis, depuración y predicción de costos de seguros médicos mediante regresión lineal e integración con IA.
 
 <p align="center">
-  <img src="docs/App.png" width="400" alt="Preview de la App">
+  <img src="docs/App.png" width="200" alt="Preview de la App">
 </p>
 ![Preview de la App](docs/App.png)
 
