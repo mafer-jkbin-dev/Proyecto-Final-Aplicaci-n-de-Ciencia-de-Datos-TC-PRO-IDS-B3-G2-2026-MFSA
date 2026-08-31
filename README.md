@@ -1,6 +1,8 @@
 📊 Insurance Cost Predictions App
 Aplicación móvil desarrollada en MIT App Inventor para análisis, depuración y predicción de costos de seguros médicos mediante regresión lineal e integración con IA.
 
+![Preview de la App](docs/App.png)
+
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![MIT App Inventor](https://img.shields.io/badge/MIT-AppInventor-blue)
 ![Google Sheets](https://img.shields.io/badge/Cloud-Google%20Sheets-green)
